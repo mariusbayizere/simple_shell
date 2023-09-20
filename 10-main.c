@@ -62,7 +62,7 @@ void deleting_news(variable *file, int bem)
 	file->dek = NULL;
 	if (bem)
 	{
-		if (!file->)
+		if (!file->n)
 			free(file->xtongX);
 		if (file->pwd)
 			Deleting_all_element(&(file->pwd));
