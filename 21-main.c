@@ -45,7 +45,7 @@ int exchange_specific_variable(variable *file)
  *
  * @file: Pointer to the 'variable' structure for data storage
  * @size: Pointer to a character string representing a command
- * @p: Pointer to a size_t variable to keep track of the current position
+ * @al: Pointer to a size_t variable to keep track of the current position
  * Return: 1 if a special character is found.
  */
 int current_chacter(variable *file, char *size, size_t *al)
